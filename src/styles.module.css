@@ -3,7 +3,7 @@
   flex-wrap: nowrap;
   height: 100%;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: inherit, sans-serif;
   color: #ffffff;
   overflow: hidden;
   border: 2px solid #CBD5E1;
