@@ -50,7 +50,7 @@ export const EventPreview: React.FC<EventPreviewProps> = ({
   classNames,
 }) => {
   return (
-    <div {...defaultAttributes} title={event.name} key={event.id}>
+    <div {...defaultAttributes} title={event.name} key={event.id} style={{ ...defaultAttributes.style, backgroundColor: event.backgroundColor }} >
       <span className={classNames.event_info}>{event.name}</span>
       <span className={classNames.event_info}>
         {format(event.startTime, "HH:mm")} - {format(event.endTime, "HH:mm")}

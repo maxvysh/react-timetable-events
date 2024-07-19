@@ -16,6 +16,7 @@ export interface Event {
   startTime: Date;
   endTime: Date;
   type?: string;
+  backgroundColor?: string;
   [key: string]: unknown;
 }
 
