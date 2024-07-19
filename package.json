@@ -1,6 +1,6 @@
 {
-  "name": "react-timetable-events",
-  "version": "2.0.0",
+  "name": "@maxvysh/react-timetable-events",
+  "version": "2.0.1",
   "description": "Timetable events React component",
   "author": "Spalevic Nikola & Furtula Filip",
   "license": "MIT",
