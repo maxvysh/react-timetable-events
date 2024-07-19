@@ -4,8 +4,11 @@
   height: 100%;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  color: #efefef;
+  color: #ffffff;
   overflow: hidden;
+  border: 2px solid #CBD5E1;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
 }
 
 .day {
@@ -18,7 +21,7 @@
 }
 
 .day_title {
-  background-color: #34495e;
+  background-color: rgb(18, 29, 53);
   font-size: .7rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -30,7 +33,7 @@
 }
 
 .hour {
-  background-color: rgba(52, 73, 94,0.9);
+  background-color: rgb(18, 29, 53);
   font-size: 12px;
   text-align: center;
   width: 5rem;
@@ -39,7 +42,7 @@
 .event {
   position: absolute;
   width: 100%;
-  background-color: rgb(18, 205, 177);
+  background-color: rgb(65, 87, 138);
   font-size: .7em;
   font-weight: 300;
   justify-content: center;
