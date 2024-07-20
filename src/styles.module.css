@@ -45,10 +45,12 @@
   background-color: rgb(65, 87, 138);
   font-size: .7em;
   font-weight: 300;
+  color: black;
   justify-content: center;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .event_info {
